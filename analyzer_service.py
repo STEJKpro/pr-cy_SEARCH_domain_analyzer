@@ -234,7 +234,7 @@ class DomainAnalyzer():
         self.domains_count = len(data)
         self.domains = data
         if self.domains_count >= 200:
-            print(f'ПРЕДУПРЕЖДЕНИЕ! Количество доменов для анализа привышает 200 ({self.domain_count}), \nОграничение api: 200 запросов в час, обработка может занять много времени')
+            print(f'ПРЕДУПРЕЖДЕНИЕ! Количество доменов для анализа привышает 200 ({self.domains_count}), \nОграничение api: 200 запросов в час, обработка может занять много времени')
         return data
 
 
